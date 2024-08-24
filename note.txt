@@ -34,5 +34,3 @@ git push --set-upstream origin master
 
 
 git branch -vv # 查看本地仓库，和远端仓库链接情况
-
----尾部---
