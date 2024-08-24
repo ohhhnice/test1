@@ -16,3 +16,9 @@ git checkout -b name # 创建并切换分支
 git merge name1 # 当前分支和name1分支合并
 git branch -d name # 删除分支时，需要各种检查
 git branch -D name # 不做任何检查，强制删除
+
+
+# 链接远程仓库
+ssh-keygen -t rsa # 生成ssh公钥，不断回车即可
+cat ~/.ssh/id_rsa.pub  # 获取公钥
+ssh -T git@github.com # 检查公钥是否配置成功
